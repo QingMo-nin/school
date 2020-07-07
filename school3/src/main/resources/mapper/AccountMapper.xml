@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.nin.mapper.AccountMapper">
+  <resultMap id="BaseResultMap" type="com.nin.pojo.Account">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="deal_type" jdbcType="INTEGER" property="dealType" />
+    <result column="pet_id" jdbcType="INTEGER" property="petId" />
+    <result column="seller_id" jdbcType="INTEGER" property="sellerId" />
+    <result column="buyer_id" jdbcType="INTEGER" property="buyerId" />
+    <result column="price" jdbcType="INTEGER" property="price" />
+    <result column="deal_time" jdbcType="TIMESTAMP" property="dealTime" />
+  </resultMap>
+</mapper>
